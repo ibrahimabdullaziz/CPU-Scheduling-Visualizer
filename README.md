@@ -1,47 +1,44 @@
-# 🖥️ CPU Scheduling Visualizer
-
-<div align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</div>
+# CPU Scheduling Visualizer
 
 ---
 
-### 📝 Overview
+### Overview
+
 A high-performance, interactive web application built with **React** and **Vite** to simulate and visualize various CPU scheduling algorithms. This tool is designed to help students and developers understand how operating systems manage process execution through real-time Gantt charts and performance metrics.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **🚀 Interactive Simulations**: Visualize algorithms like **First-Come, First-Served (FCFS)** and **Round Robin (RR)**.
-- **📊 Real-time Gantt Chart**: A dynamic, color-coded timeline showing exactly how processes are interleaved.
-- **📈 Detailed Metrics**: Automatic calculation of:
+- **Interactive Simulations**: Visualize algorithms like **First-Come, First-Served (FCFS)** and **Round Robin (RR)**.
+- **Real-time Gantt Chart**: A dynamic, color-coded timeline showing exactly how processes are interleaved.
+- **Detailed Metrics**: Automatic calculation of:
   - Completion Time (CT)
   - Turnaround Time (TAT)
   - Waiting Time (WT)
   - Average TAT and Average WT
-- **⚡ Dynamic Input**: Add, remove, and configure processes with unique IDs, arrival times, and burst times.
-- **🏗️ Modular Architecture**: Built with a clean, component-based structure for scalability and readability.
-- **🎨 Premium UI**: Sleek, modern design with custom CSS, dark mode support, and responsive layouts.
+- **Dynamic Input**: Add, remove, and configure processes with unique IDs, arrival times, and burst times.
+- **Modular Architecture**: Built with a clean, component-based structure for scalability and readability.
+- **Premium UI**: Sleek, modern design with custom CSS, dark mode support, and responsive layouts.
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/ibrahimabdullaziz/CPU-Scheduling-Visualizer.git
    ```
 
 2. **Navigate to the project directory:**
+
    ```bash
    cd CPU-Scheduling-Visualizer
    ```
 
 3. **Install dependencies:**
+
    ```bash
    npm install
    ```
@@ -53,7 +50,7 @@ A high-performance, interactive web application built with **React** and **Vite*
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -71,7 +68,7 @@ src/
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
