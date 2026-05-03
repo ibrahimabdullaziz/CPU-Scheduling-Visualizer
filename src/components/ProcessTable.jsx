@@ -7,19 +7,26 @@ export default function ProcessTable({ processes, removeProcess }) {
           <thead>
             <tr>
               <th>PID</th>
-              <th>Arrival Time</th>
               <th>Burst Time</th>
+              <th>Arrival Time</th>
               <th>Action</th>
             </tr>
           </thead>
           <tbody>
-            {processes.map(p => (
+            {processes.map((p) => (
               <tr key={p.pid}>
-                <td><strong>{p.pid}</strong></td>
-                <td>{p.at}</td>
-                <td>{p.bt}</td>
                 <td>
-                  <button className="btn btn-danger btn-small" onClick={() => removeProcess(p.pid)}>Remove</button>
+                  <strong>{p.pid}</strong>
+                </td>
+                <td>{p.bt}</td>
+                <td>{p.at}</td>
+                <td>
+                  <button
+                    className="btn btn-danger btn-small"
+                    onClick={() => removeProcess(p.pid)}
+                  >
+                    Remove
+                  </button>
                 </td>
               </tr>
             ))}
